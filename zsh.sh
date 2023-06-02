@@ -5,6 +5,11 @@ sudo dnf install util-linux-user
 #now install zsh
 sudo dnf install zsh
 
+#now we have to solve error that cause github 443 port connection error
+#we can solve it by way but the easy solution is just edit the host file and allow it
+sudo nano /etc/hosts
+#add the line to this file at the end line is "185.199.108.133 raw.githubusercontent.com"
+
 #now install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -29,3 +34,4 @@ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZS
 nano .zshrc 
 
 #and replace 'plugins=(git)' with 'plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete web-search)'
+#this is not a script now it is for my own convenience
