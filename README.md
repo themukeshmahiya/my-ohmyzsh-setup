@@ -1,4 +1,4 @@
-# My-ohmyzsh-setup-
+# My-ohmyzsh-setup
 This is my shell script to install oh my zsh on fedora/centos stream/rhel/alma/rocky linux
 
 # Add a entry for github in host file to stop 443 timeout error
