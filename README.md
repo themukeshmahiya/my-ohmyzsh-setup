@@ -9,5 +9,5 @@ This is my shell script to install oh my zsh on fedora/centos stream/rhel/alma/r
 
 # Now add plugin to zshrc file 
 1. Run "nano.zshrc"
-2. Now replace "plugins=(git)" with "plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-s   earch sudo)"
+2. Now replace "plugins=(git)" with "plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search sudo)"
 3. Double quotes are not included.
