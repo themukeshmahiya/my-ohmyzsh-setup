@@ -1,9 +1,6 @@
 #!/bin/bash
-#first we should install chsh-package to change default shell bash to zsh 
-sudo dnf install util-linux-user
-
-#now install zsh
-sudo dnf install zsh
+# we should install chsh-package to change default shell bash to zsh  and zsh
+sudo dnf install util-linux-user zsh
 
 #now install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
